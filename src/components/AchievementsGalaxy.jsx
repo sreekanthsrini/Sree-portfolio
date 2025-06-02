@@ -1,36 +1,44 @@
 import React from "react";
 import { motion } from "framer-motion";
+import vp from "../assets/acheivements/vp.jpg"
+import orgevent  from "../assets/acheivements/orgevent.jpg"
+import project from "../assets/acheivements/project.jpg"
+import problemsolve from "../assets/acheivements/lc.jpg"
+import certificate from "../assets/acheivements/certificate.jpg"
+import attenevent from "../assets/acheivements/attenevent.jpg"
+
+
 
 const achievements = [
   {
     title: "Vice President of Regex Club",
     description: "Led initiatives and inspired innovation as the Vice President of the technical club.",
-    image: "src/assets/acheivements/vp.jpg", // Add your image in /public/achievements
+    image: vp, // Add your image in /public/achievements
   },
   {
     title: "Organized 2 Major College Events",
     description: "Successfully planned and executed large-scale tech events with high student participation.",
-    image: "src/assets/acheivements/orgevent.jpg",
+    image: orgevent,
   },
   {
     title: "Presented 10+ Projects",
     description: "Displayed technical skills by presenting 10+ full-stack and React-based projects.",
-    image: "src/assets/acheivements/project.jpg",
+    image: project,
   },
   {
     title: "Solved 150+ DSA Problems",
     description: "Solved complex coding problems on HackerRank and LeetCode.",
-    image: "src/assets/acheivements/lc.jpg",
+    image: problemsolve,
   },
   {
     title: "Earned 50+ Certificates",
     description: "Completed multiple online courses in tech domains and received certifications.",
-    image: "src/assets/acheivements/certificate.jpg",
+    image: certificate,
   },
   {
     title: " 5+Workshops & 20+College Events",
     description: "Actively participated in workshops, bootcamps, and coding competitions.",
-    image: "src/assets/acheivements/attenevent.jpg",
+    image: attenevent,
   },
 ];
 
